@@ -37,7 +37,7 @@ function getCurrentTime()
 
 
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
     <title><?= $titleText; ?></title>
 </head>
