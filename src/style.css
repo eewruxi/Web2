@@ -1,0 +1,11 @@
+.imagesContainer {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 200px);
+}
+.imagesContainer * {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
