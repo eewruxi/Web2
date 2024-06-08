@@ -16,7 +16,7 @@ class Gallery
         $result = [];
         foreach (array_slice($previews, 2) as $file) {
             $result[] = '<a target="_blank" href="' . $this->directories['big'] . $file . '">
-            <img src="' . $this->directories['small'] . $file . '"></a>';
+            <img src="' . $this->directories['small'] . $file . '" alt=""></a>';
         }
         return $result;
     }
